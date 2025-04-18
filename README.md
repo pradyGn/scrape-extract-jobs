@@ -42,6 +42,15 @@ cd career-page-scraper
 pip install -r requirements.txt
 ```
 
+## 🏃 Running the Pipeline
+
+You can run the entire pipeline using the following command. This will generate a pandas DataFrame of recent jobs in `data/extracted_data/<timestamp>` directory.
+
+```
+python scrape_clean_extract.py
+```
+
+
 ## 🧠 Architecture
 
 ```
@@ -75,14 +84,6 @@ pip install -r requirements.txt
   "company_name": "Acme Corp",
   "job_link": "https://careers.acme.com/jobs/R157984"
 }
-```
-
-## 🏃 Running the Pipeline
-
-You can run the entire pipeline using the following command. This will generate a pandas DataFrame of recent jobs in `data/extracted_data/<timestamp>` directory.
-
-```
-python scrape_clean_extract.py
 ```
 
 
