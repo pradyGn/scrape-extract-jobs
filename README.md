@@ -77,6 +77,15 @@ pip install -r requirements.txt
 }
 ```
 
+## 🏃 Running the Pipeline
+
+You can run the entire pipeline using the following command. This will generate a pandas DataFrame of recent jobs in `data/extracted_data/<timestamp>` directory.
+
+```
+python scrape_clean_extract.py
+```
+
+
 ---
 
 ## 🙋‍♂️ Feel free to reach out to me!
