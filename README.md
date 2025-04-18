@@ -81,8 +81,7 @@ python scrape_clean_extract.py
   "job_id": "R157984",
   "job_title": "Senior Data Scientist",
   "location": "New York, NY",
-  "company_name": "Acme Corp",
-  "job_link": "https://careers.acme.com/jobs/R157984"
+  "job_link": "https://careers.adobe.com/jobs/R157984"
 }
 ```
 
